@@ -1,0 +1,41 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.register {
+height: 522px;
+border: 1px solid #cccccc;
+/* background-color: cyan; */
+margin-top: 20px;
+}
+.register h3 {
+    height: 42px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ececec;
+}
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #cccccc;
+}
+.error {
+    color: red;
+}
+.error_icon {
+    /* 图片与文字对齐 */
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: url();
+}

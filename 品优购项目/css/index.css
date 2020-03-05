@@ -1,0 +1,250 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+
+}
+.arrow-l,
+.arrow-r{
+display: none;
+position: absolute;
+top: 50%;
+margin-top: -20px;
+width: 24px;
+height: 40px;
+background-color: rgba(0,0,0,.3);
+text-align: center;
+line-height: 40px;
+color: #fff;
+z-index: 2;
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.focus{
+    overflow: hidden;
+    position: relative;
+    width: 720px;
+    height: 455px;
+    /* background-color: #fff; */
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(214, 33, 33, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current {
+    background-color: red;
+}
+.focus ul li img {
+    width: 721px;
+    height: 455px;
+}
+.focus ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3000px;
+}
+.focus ul li {
+    float: left;
+}
+.newsflash {
+    position: absolute;
+    width: 250px;
+    height: 455px;
+    right: 71px;
+    top: 193px;
+    /* background-color: cyan; */
+}
+.news {
+    height: 165px;
+    /* background-color: red; */
+    border: 1px solid #e4e4e4;
+
+}
+.lifeservice {
+    height: 209px;
+/* background-color: orange; */
+border: 1px solid #e4e4e4;
+border-top:0;
+overflow: hidden;
+}
+.bargain {
+    margin-top: 5px;
+}
+.news_hd {
+    line-height: 33px;
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news_hd h5{
+float: left;
+font-size: 15px;
+}
+.news_hd .more {
+    float: right;
+}
+.news_hd .more::after {
+    content: "\e902";
+    font-family: "icomoon";
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 做出超出部分变为省略号的效果 */
+    overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis ;
+}
+.news_bd {
+    padding: 5px 15px 0;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+margin-top: 12px;
+background: url(../images/精灵图.png) no-repeat -18px -15px;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: orange;
+    margin-top: 12px;
+}
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom_hd h5 {
+ font-size: 20px;
+ color: #fff;   
+ margin-top: 10px;
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    float: left;
+}
+/* 防止上传后图片大小改变，为图片设置固定高宽 */
+.recom_bd ul li {
+    width: 248px;
+    height: 163px;
+}
+
+/* 家用电器 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+float: right;
+line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin:0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+    background-color: #ccc;
+}
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    text-align: center;
+    width: 210px;
+    background-color: #f9f9f9;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: solid 1px #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.col_210 ul {
+    margin-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    /* a如果包含有宽度的盒子需要转换为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.cebian {
+    position: fixed;
+    top:250px;
+    left: 10px;
+    display: none;
+}
+.cebian ul li {
+    width: 50px;
+    height: 30px;
+    /* background-color: cyan; */
+    border-bottom: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+}
+.cebian ul {
+    border: 1px solid black;
+    border-bottom:  0;
+
+}
